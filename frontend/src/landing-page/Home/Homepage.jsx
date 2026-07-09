@@ -1,8 +1,24 @@
-function app(){
-    return (
+import 'react';
+import Hero from './HeroSec';
+import Awards from './Awards';
+import Stats from './Stats';
+import Pricing from './Pricing';
+import Education from './Education';
+import OpenAccount from '../Openaccount';
+import Navbar from '../Navbar';
+import Footer from '../Fotter';
+function Homepage(){
+    return(
         <>
-        <h1>hiiiiiiiiiiiiiiiiiiiii</h1>
+        <Navbar/>
+         <Hero/>
+         <Awards/> 
+         <Stats/>
+         <Pricing/>
+         <Education/>
+         <OpenAccount/>
+         <Footer/>
         </>
-    )
+    );
 }
-export default app;
+export default Homepage;
